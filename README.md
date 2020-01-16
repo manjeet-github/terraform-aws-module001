@@ -1,1 +1,2 @@
-# terraform-aws-module001
+#  readme
+module code for compute
