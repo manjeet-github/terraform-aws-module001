@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'node'
-    }
-
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
@@ -21,8 +16,5 @@ pipeline {
         echo 'deploy'
       }
     }
-  }
-  environment {
-    ENV1 = 'VALUE1'
   }
 }
